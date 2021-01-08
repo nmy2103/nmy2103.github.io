@@ -105,6 +105,12 @@ hr {
 
     a {
         color: #000000;
+        
+        &:hover {
+            text-decoration: none;
+            background-color: $accent;
+            color: #ffffff;
+        }
     }
 }
 
