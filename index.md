@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-<img class="profile-picture" src="assets/nyamane_profile.png" width="150">
+<img class="profile-picture" src="assets/nyamane_profile.png" width="200">
 
 I am a first-year PhD student studying [Personal Health Informatics](https://phi.khoury.northeastern.edu){:target="_blank"} at the Khoury College of Computer Sciences and Bouvé College of Health Sciences at Northeastern University. I am part of the Computational Behavioral Science Lab headed by [Dr. Matthew Goodwin](https://www.khoury.northeastern.edu/people/matthew-goodwin){:target="_blank"}.
 
@@ -32,3 +32,7 @@ I was born and raised in New York, where I completed my BA and MA in psychology 
 4.  Goldman, S., McGowan, N., Thapa, L., **Yamane, N.M.**, Fein, D., Naigles, L, and Abbruzzese, L.D. (2019, May). _W-sitting and sociomotor behaviors in toddlers with autism spectrum disorders: True or false?_ Poster presented at the INSAR 2019 Annual Meeting, Montreal, QC, Canada.
 5.  Beebe, B., Margolis, A., Lee, S.H., Peterson, B., Dailami, M., Davis, A., Emanet, N., Zhong, D., **Yamane, N.**, Rahman M., Joseph, J., Staniaszek, K., Malouta, C., Levy, J., & Banker, S. (2018, July). Clustering infant communication: Carving nature at its joints. Poster presented at the International Congress of Infant Studies, Philadelphia, PA.
 6.  **Yamane, N.M.**, McCullough, A.K., & Goldman, S. (2018, April). _Identifying vocal-motor behaviors of joint engagement in children with autism spectrum disorder and their parents._ Poster presented at the 2nd Annual Women in Science at Columbia Graduate Research Symposium at Columbia University, New York, NY.
+
+<p align="center"><img src="assets/cat.png" width="75">
+  <br>
+  That's all here. Go back to the <a href="#top">top</a>.</p>
