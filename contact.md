@@ -11,7 +11,7 @@ If you would like to get in touch with me, please send me an email at [yamane.n@
 
 ## Physical Address
 
-> Computational Science Lab
+> Computational Behavioral Science Lab
 >
 > 008 Robinson Hall
 >
