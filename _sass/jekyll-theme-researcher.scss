@@ -36,7 +36,9 @@ a {
     color: $accent;
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
+        background-color: $accent;
+        color: #ffffff;
     }
 }
 
