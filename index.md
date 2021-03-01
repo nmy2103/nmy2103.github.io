@@ -19,8 +19,8 @@ I was born and raised in New York, where I completed my BA and MA in psychology 
 
 ## Publications
 
-1.  **Yamane, N.**, Snow, A., Fein, D., Naigles, L., & Goldman, S. (2021). _Short report: Parent-guided movements during play with children with autism spectrum disorder._ Manuscript submitted for publication.
-2.  Ardalan, A., **Yamane, N.**, Rao, A., Montes, J., & Goldman, S. (2020). _Analysis of gait synchrony and balance in neurodevelopmental disorders using computer vision technique._ Manuscript submitted for publication.
+1.  **Yamane, N.**, Snow, A., Fein, D., Naigles, L., & Goldman, S. (2021). _Short report: Parent-guided movements during play with children with autism spectrum disorder._ Manuscript under review.
+2.  Ardalan, A., **Yamane, N.**, Rao, A., Montes, J., & Goldman, S. (2020). _Analysis of gait synchrony and balance in neurodevelopmental disorders using computer vision technique._ Manuscript under review.
 3.  Abbruzzese, L., **Yamane, N.**, Fein, D., Naigles, L., & Goldman, S. (2020). Assessing child postural variability: Development, feasibility, and reliability of a video coding system. _Physical & Occupational Therapy in Pediatrics._ Advance online publication. doi:[10.1080/01942638.2020.1833272](https://doi.org/10.1080/01942638.2020.1833272){:target="_blank"}.
 4.  **Yamane, N.** (2018). Identifying vocal-motor bhaviors of joint engagement in children with autism spectrum disorder and their parents (Master's thesis). doi:[10.7916/d8-h9yj-xr57](https://doi.org/10.7916/d8-h9yj-xr57){:target="_blank"}.
 
@@ -33,6 +33,13 @@ I was born and raised in New York, where I completed my BA and MA in psychology 
 5.  Beebe, B., Lee, S.H., DelGaudio, R., Hersch, E., Sherwin, E., Abrahams, L., Carney, S., Davis, A., Malouta, C., Kahya, Y., Raudales, A., Roman, M., **Yamane, N.**, Bowman, A., & Ende, R. (2019, May). _Risk and resilience in 9/11 pregnant widows and their infants at one year._ Poster presented at the 31st Annual Convention of the Association for Psychological Science, Washington, DC.
 6.  Beebe, B., Margolis, A., Lee, S.H., Peterson, B., Dailami, M., Davis, A., Emanet, N., Zhong, D., **Yamane, N.**, Rahman M., Joseph, J., Staniaszek, K., Malouta, C., Levy, J., & Banker, S. (2018, July). _Clustering infant communication: Carving nature at its joints._ Poster presented at the International Congress of Infant Studies, Philadelphia, PA.
 7.  **Yamane, N.M.**, McCullough, A.K., & Goldman, S. (2018, April). _Identifying vocal-motor behaviors of joint engagement in children with autism spectrum disorder and their parents._ Poster presented at the 2nd Annual Women in Science at Columbia Graduate Research Symposium at Columbia University, New York, NY.
+
+## Teaching
+
+*   **Principles of Epidemiology in Medicine and Public Health** (PHTH 4202)  
+    Teaching Assistant, _Northeastern University_  
+    Spring 2021, Farzad Noubary, PhD  
+    Fall 2020, Matthew Goodwin, PhD
 
 <p align="center"><img src="assets/cat.png" width="75">
   <br>
