@@ -21,8 +21,8 @@ I was born and raised in New York, where I completed my BA and MA in psychology 
 
 1.  **Yamane, N.**, Snow, A., Fein, D., Naigles, L., & Goldman, S. (2021). _Short report: Parent-guided movements during play with children with autism spectrum disorder._ Manuscript under review.
 2.  Ardalan, A., **Yamane, N.**, Rao, A., Montes, J., & Goldman, S. (2020). _Analysis of gait synchrony and balance in neurodevelopmental disorders using computer vision technique._ Manuscript under review.
-3.  Abbruzzese, L., **Yamane, N.**, Fein, D., Naigles, L., & Goldman, S. (2020). Assessing child postural variability: Development, feasibility, and reliability of a video coding system. _Physical & Occupational Therapy in Pediatrics._ Advance online publication. doi:[10.1080/01942638.2020.1833272](https://doi.org/10.1080/01942638.2020.1833272){:target="_blank"}.
-4.  **Yamane, N.** (2018). Identifying vocal-motor bhaviors of joint engagement in children with autism spectrum disorder and their parents (Master's thesis). doi:[10.7916/d8-h9yj-xr57](https://doi.org/10.7916/d8-h9yj-xr57){:target="_blank"}.
+3.  Abbruzzese, L., **Yamane, N.**, Fein, D., Naigles, L., & Goldman, S. (2021). Assessing child postural variability: Development, feasibility, and reliability of a video coding system. _Physical & Occupational Therapy in Pediatrics, 41_(3), 314–325. doi:[10.1080/01942638.2020.1833272](https://doi.org/10.1080/01942638.2020.1833272){:target="_blank"}.
+4.  **Yamane, N.** (2018). Identifying vocal-motor behaviors of joint engagement in children with autism spectrum disorder and their parents (Master's thesis). doi:[10.7916/d8-h9yj-xr57](https://doi.org/10.7916/d8-h9yj-xr57){:target="_blank"}.
 
 ## Selected Presentations
 
