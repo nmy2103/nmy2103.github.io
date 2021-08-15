@@ -1,0 +1,164 @@
+/* general formatting */
+html {
+    scroll-behavior: smooth;
+}
+
+body, p {
+    background-color: #FAF9F6;
+    font-family: 'Sen', sans-serif;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.35em;
+}
+
+b {
+    font-weight: 800;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.title {
+    font-size: 30px;
+    color: #222222;
+}
+
+h1, h2 {
+    font-size: 22px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    padding-top: 5px;
+    margin-bottom: -2px;
+}
+
+table, th, tr {
+    border: 0;
+    padding-right: 3px;
+    margin-top: 10px;
+    margin-left: -2px;
+    width: 100%;
+}
+
+/* styles profile picture */
+.profile-picture {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 30px 0 0 15px;
+    float: right;
+    border-radius: 50%;
+}
+
+/* styles links and navigation bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.navbar-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.navbar-item a {
+    padding: 5px;
+    font-size: 16px;
+    color: #c71414;
+}
+
+a {
+    text-decoration: none;
+    color: #c71414;
+}
+    
+a:hover {
+    text-decoration: none;
+    background-color: #c71414;
+    color: #ffffff;
+}
+
+.clicked {
+    padding: 5px;
+    font-size: 16px;
+    color: #c71414;
+    font-weight: 800;
+}
+
+/* styles page components */
+.wrapper {
+    min-height: 100%;
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0;
+}
+
+.footer {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 0px 0px 0px;
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.footer-short {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 0px 0px 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+
+footer div {
+    text-align: center;
+    margin: auto;
+}
+
+footer a {
+    color: #222222;
+}
+
+/* styles lists and list items */
+.container ol, ul {
+    padding: 0 20px 0 20px;
+    display: block;
+    counter-reset: list;
+}
+
+.container ul>li {
+    margin: 5px 0 5px 0;
+}
+
+.container ol>li {
+    margin: 8px 0 5px 8px;
+    list-style: none;
+    position: relative;
+}
+
+.container ol>li:before {
+    content: "[" counter(list,decimal) "] ";
+    counter-increment: list;
+    position: absolute;
+    margin-left: -30px;
+}
