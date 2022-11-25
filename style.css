@@ -32,6 +32,13 @@ h1, h2 {
     margin-bottom: -2px;
 }
 
+h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #4f4f4f;
+    padding-top: 15px;
+}
+
 table, th, tr {
     border: 0;
     padding-right: 3px;
@@ -47,6 +54,23 @@ table, th, tr {
     position: relative;
     margin: 30px 0 0 15px;
     float: right;
+    border-radius: 50%;
+}
+
+/* styles research images */
+.research-img-right {
+    width: 200px;
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    float: right;
+    border-radius: 50%;
+}
+
+.research-img-left {
+    width: 200px;
+    position: relative;
+    margin: 0px 20px 0px 0px;
+    float: left;
     border-radius: 50%;
 }
 
