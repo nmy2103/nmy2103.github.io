@@ -192,7 +192,7 @@ a:hover {
 }
 
 .card h1, h2 {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Sen', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
@@ -207,7 +207,7 @@ a:hover {
 
 .contact ul {
     list-style: outside;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .contact li {
@@ -220,8 +220,8 @@ a:hover {
 }
 
 hr { 
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
   margin-left: auto;
   margin-right: auto;
   border: 0.1pt solid #000000;
