@@ -196,8 +196,7 @@ a:hover {
     font-family: 'Sen', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
-    padding-top: 5px;
-    margin-bottom: -2px;
+    margin-top: 10px;
 }
 
 .contact {
@@ -220,8 +219,8 @@ a:hover {
 }
 
 hr { 
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   margin-left: auto;
   margin-right: auto;
   border: 0.1pt solid #000000;
@@ -251,11 +250,11 @@ hr {
     border-top: 1px solid #e3e3e3;
     background-color: #c71414;
     color: #ffffff;
-    padding: 15px 0px 0px 0px;
+    padding: 13px 0px 0px 0px;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 35px;
+    height: 33px;
     width: 100%;
 }
 
