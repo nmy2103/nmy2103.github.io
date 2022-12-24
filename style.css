@@ -247,6 +247,23 @@ hr {
     width: 100%;
 }
 
+.footer-card {
+    border-top: 1px solid #e3e3e3;
+    background-color: #c71414;
+    color: #ffffff;
+    padding: 10px 0px 0px 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.footer-card a {
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
 footer div {
     text-align: center;
     margin: auto;
