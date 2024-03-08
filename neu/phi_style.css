@@ -1,0 +1,294 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* general formatting */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #222222;
+    line-height: 1.35em;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+p {
+    line-height: 1.4em;
+    margin-bottom: 0;
+}
+
+b {
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #014421;
+    padding-top: 15px;
+    letter-spacing: 0.3pt;
+}
+
+h2 {
+    font-size: 22px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600 !important;
+    letter-spacing: -0.2pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 26px;
+    color: #355e3b;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 800;
+    padding-top: 15px;
+    letter-spacing: 0.5pt;
+    margin-bottom: 30px;
+}
+
+table, tr {
+    border: 1px dotted #355e3b;
+    margin: 20px 0px 30px 0px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    border-spacing: 15px;
+}
+
+.narrow-column {  /* narrower column of table */
+    width: 33%;
+    line-height: 1.8em;
+}
+
+.component {
+    font-size: 18px;
+    font-weight: 600;
+    color: #355e3b;
+    padding-bottom: 10px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.fa-regular {
+    color: #355e3b;
+    font-size: 14pt;
+    vertical-align: -1pt;
+}
+
+.fa-circle-question {
+    font-size: 11pt;
+    vertical-align: 0;
+}
+
+.role li {
+    list-style: none;
+    margin-left: 1.6rem;
+    margin-right: 0;
+    margin-bottom: 0.85rem;
+    margin-top: 5px;
+}
+.role li::before {
+    content: '\f007';
+    font-family: 'Font Awesome 5 Free';
+    color: #355e3b;
+    float: left;     /* force the margin to the edge of the row */
+    margin-left: -1.6rem;
+}
+
+/* Tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip::before {
+    content: "EAI PervasiveHealth is a premier international forum with a \
+    specific focus on technologies and human factors related to the use of \
+    ubiquitous computing in healthcare and for wellbeing. PervasiveHealth \
+    proceedings are indexed in leading indexing services, such as Web of \
+    Science, Compendex, Scopus, DBLP, EU Digital Library, Google Scholar, \
+    IO-Port, MathSciNet, Inspec, and Zentralblatt MATH.";
+    visibility: hidden;
+    background-color: #bcb88a;
+    color: #222222;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 10pt;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%; /* Adjusted to position below */
+    left: 50%;
+    margin-left: -50px;
+    width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip_review {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip_review::before {
+    content: "A mapping review employs a flexible and exploratory search \
+    strategy to gain a thematic understanding of the existing research on a \
+    specific topic, which includes evaluating potential gaps for future \
+    research to address.";
+    visibility: hidden;
+    background-color: #bcb88a;
+    color: #222222;
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 10pt;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%; /* Adjusted to position below */
+    left: 50%;
+    margin-left: -25px;
+    width: 200px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show tooltip on hover */
+.tooltip:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip_review:hover::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Styles profile picture */
+.profile-picture {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 30px 0 0 15px;
+    float: right;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #013220;
+    font-weight: 600;
+}
+    
+a:hover {
+    text-decoration: none;
+    background-color: #355e3b;
+    color: #ffffff;
+}
+
+.phi {
+    /* fixed position a zero-height full width container */
+	width: 80%; /* Adjust the width as needed */
+    max-width: 900px; /* Set a maximum width if necessary */
+    margin: 0 auto; /* Set margin to auto for horizontal centering */
+	height: auto;
+	text-align: center; /* Center all inline content */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+hr { 
+    margin-bottom: 0.20em;
+    margin-top: -0.20em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1pt solid #013220;
+}
+
+/* Pop-out Contact */
+.pop-out-div {
+    position: fixed;
+    top: 85%;
+    right: 10px;
+    transform: translate(83%, -50%);
+    width: auto;
+    height: auto;
+    color: #222222;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pop-out-div:hover {
+    transform: translate(0, -50%);
+}
+
+.container {
+    overflow: auto;
+    width: 240px;
+}
+
+.cat {
+    float: left; /* Distribute available space equally between the two divs */
+    width: auto;
+    margin: 12px 0px 0px 5px;
+}
+
+.contact {
+    float: right;
+    width: auto;
+    font-size: 10pt;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.update {
+    font-size: 9pt;
+    font-weight: normal;
+    color: #355e3b;
+}
