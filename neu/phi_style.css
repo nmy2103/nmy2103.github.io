@@ -132,6 +132,11 @@ section {
     flex: 1 1 600px; /* Let the .heartview div grow to fill the remaining space */
 }
 
+.reviewer {
+    margin-top: -10px;
+    font-weight: 600;
+}
+
 footer {
     background-color: #003c80;
     color: #e8e8e8;
