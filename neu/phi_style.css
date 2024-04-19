@@ -187,22 +187,16 @@ i {
     margin-left: 5px;
 }
 
-.role {
-    margin: 0px 0px 5px -15px;
+.contributions {
+    font-size: 10pt;
+    line-height: 1.3em;
 }
 
-.role li {
-    list-style: none;
-    margin: 0;
-    font-size: 11pt;
-}
-
-.role li::before {
-    content: '\f007';
-    font-family: 'Font Awesome 5 Free';
+#contributions {
     color: #003c80;
-    float: left;     /* force the margin to the edge of the row */
-    margin-left: -1.6rem;
+    font-weight: 600;
+    font-size: 11pt;
+    margin-bottom: -8px;
 }
 
 /* Tooltips */
