@@ -4,3 +4,4 @@ resources/_gen/
 Thumbs.db
 .idea/
 *.log
+.hugo_build.lock

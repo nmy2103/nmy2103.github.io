@@ -1,0 +1,125 @@
+/* Override hugo-profile font utilities */
+/* Default font for body */
+body {
+    font-family: 'Instrument Sans' !important;
+    font-size: 13pt !important;
+}
+
+/* Light Mode */
+.light {
+    --bs-body-bg: #f6f6f4 !important;
+    --text-color: #313130 !important;
+    --primary-color: #7c8c7a !important;
+    --text-link-color: #7c8c7a !important;
+}
+
+.light > #about strong {
+  color: #313130;
+}
+
+/* Dark Mode */
+.dark {
+    --text-link-color-dark: #bfd4bc !important;
+    --primary-color-dark: #bfd4bc !important;
+}
+.dark #about strong {
+  color: #bfd4bc !important;
+}
+
+.dark #hero .image img {
+    border: 3px solid var(--text-color-dark)
+}
+
+/* Font Styling */
+.primary-font, #primary-font,
+.secondary-font, #secondary-font,
+.default-font, #default-font {
+  font-family: 'Instrument Sans', sans-serif !important;
+}
+.h3, h3 {
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* About section text */
+#about,
+#about p,
+#about span,
+#about li,
+#about div {
+  font-family: 'Instrument Sans', sans-serif !important;
+}
+
+#about .content {
+    font-weight: 200 !important;
+    letter-spacing: 0.3pt;
+}
+
+/* Achievements list styling */
+.achievement-list {
+  list-style: none;
+  padding-left: 0;
+  /*margin-top: 2rem;*/
+}
+.achievement-item {
+  margin-bottom: 2rem;
+}
+
+.achievement-title {
+  margin-bottom: 0.25rem;
+}
+
+#achievements .achievement-title a {
+  color: var(--text-link-color);
+  text-decoration: none;
+}
+
+#achievements .achievement-title a:hover {
+  text-decoration: underline;
+}
+
+.achievement-content {
+  font-size: 0.95rem;
+  color: var(--text-secondary-color);
+}
+
+.achievement-image {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0 0.75rem;
+}
+
+#hero .col-auto.h-100 > a.btn {
+  margin-top: 46px;
+}
+
+#hero a.btn.social-icon {
+  color: var(--primary-color) !important;
+  line-height: 0%;
+  border-radius: 50%;
+  margin-top: 50px;
+  padding-right: 0.75rem !important;
+  padding-left: 0.75rem !important;
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
+  border: 1px solid var(--primary-color);
+  transition: none;
+}
+
+#experience .nav.mb-2 {
+  margin-bottom: 1.5rem !important;
+}
+
+#navbarContent #sun,
+#navbarContent #moon {
+    margin-bottom: 5px;
+}
+
+.nav-pills .nav-link {
+    padding: 5px;
+}
+
+footer {
+    font-size: 9pt !important;
+}

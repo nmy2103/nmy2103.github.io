@@ -1,0 +1,58 @@
+{{ if .Site.Params.achievements.enable | default false }}
+<section id="achievements" class="py-5">
+  <div class="container">
+    <h3 class="text-center">
+      {{ .Site.Params.achievements.title | default "Achievements" }}
+    </h3>
+
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+<!--      <div class="col-lg-8 col-md-10 px-3">-->
+
+        <div class="card shadow-sm">
+          <div class="card-body">
+
+            <ul class="achievement-list">
+              {{ range .Site.Params.achievements.items }}
+                <li class="achievement-item">
+
+                  {{ if .url }}
+                    <h5 class="achievement-title">
+                      <a href="{{ .url }}" target="_blank" rel="noopener">
+                        {{ .title }}
+                      </a>
+                    </h5>
+                  {{ else }}
+                    <h5 class="achievement-title">
+                      {{ .title }}
+                    </h5>
+                  {{ end }}
+
+                  {{ if .image }}
+                    <img src="{{ .image }}" alt="{{ .title }}" class="achievement-image">
+                  {{ end }}
+
+                  {{ if .authorship }}
+                  <div class="achievement-authorship secondary-font">
+                    {{ .authorship | markdownify }}
+                  </div>
+                  {{ end }}
+
+                  {{ if .content }}
+                  <div class="achievement-content secondary-font">
+                    {{ .content | markdownify }}
+                  </div>
+                  {{ end }}
+
+                </li>
+              {{ end }}
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
