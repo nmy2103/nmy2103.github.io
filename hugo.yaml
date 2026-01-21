@@ -388,10 +388,9 @@ params:
     # title: "Custom Name"
     content: Want to collaborate on research or just get in touch?
     btnName: Submit
-    btnLink: mailto:natasha.yamane@gmail.com
     formspree:
       enable: true # `contact.email` value will be ignored
-      formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      formId: mkooklew
       emailCaption: "your.email@domain.com"
       messageCaption: "Write your message here."
       messageRows: 5
