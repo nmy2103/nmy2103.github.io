@@ -116,6 +116,16 @@ body {
     margin-bottom: 5px;
 }
 
+.projects .card-img-top,
+#projects .card-img-top,
+.project-card img,
+.projects img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 #contact-form-status {
   position: fixed;
   top: 1.25rem;

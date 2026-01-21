@@ -283,6 +283,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/nmy2103/pyvocals
 
+      - title: Pose Annotator 1.0.0
+        content: A web annotation tool for human pose estimation.
+        image: images/projects/pose-annotator.gif
+        badges:
+          - "Python"
+          - "TypeScript"
+          - "PostgreSQL"
+        links:
+          - icon: fas fa-desktop
+            url: https://pose-annotator.onrender.com
+          - icon: fab fa-github
+            url: https://github.com/tchen94/pose-annotator
+
   # Education
   education:
     enable: true
