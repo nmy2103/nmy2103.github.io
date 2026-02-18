@@ -364,9 +364,11 @@ params:
     enable: true
     title: "Selected Papers"
     items:
-      - title: "Nonlinear dynamics of parent–child cardiac synchrony during play in autism: Sociobehavioral correlates and links to social communication"
+      - title: "Nonlinear dynamics of parent–child cardiac coupling during play in autism: A multimodal investigation of sociobehavioral correlates"
         authorship: |-
-          **Yamane, N.** & Goodwin, M. S. *(Manuscript in preparation)*
+          **Yamane, N.**, Lansberry, H., McCullough, A. K., Mishra, V., Liu, S., & Goodwin, M. S.
+        content: |-
+          *(Manuscript in preparation)* ∙ 2026
       - title: "Toward music-based stress management: Contemporary biosensing systems for affective regulation"
         authorship: |-
           **Yamane, N.**, Mishra, V., & Goodwin, M. S.
