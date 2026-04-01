@@ -368,7 +368,9 @@ params:
         authorship: |-
           **Yamane, N.**, Lansberry, H., McCullough, A. K., Mishra, V., Liu, S., & Goodwin, M. S.
         content: |-
-          *(Manuscript in preparation)* ∙ 2026
+          *PsyArXiv* (preprint) ∙ 2026
+        url: "https://doi.org/10.31234/osf.io/ph38y_v2"
+
       - title: "Toward music-based stress management: Contemporary biosensing systems for affective regulation"
         authorship: |-
           **Yamane, N.**, Mishra, V., & Goodwin, M. S.
